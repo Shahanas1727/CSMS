@@ -1,0 +1,53 @@
+.btn:focus {
+    background-color: rgba(16, 65, 122, 255);
+    color: white;
+}
+
+.btn {
+    font-weight: 400;
+    border-radius: 0;
+    background-color: whitesmoke;
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.button-1 {
+    border-bottom: 5px solid rgba(119, 93, 185, 255);
+    width: 100%;
+}
+
+.button-2 {
+    border-bottom: 5px solid rgba(200, 225, 240, 255);
+    width: 100%;
+}
+
+.button-3 {
+    border-bottom: 5px solid rgba(236, 112, 11, 255);
+    width: 100%;
+}
+
+.button-4 {
+    border-bottom: 5px solid rgba(195, 125, 127, 255);
+    width: 100%;
+}
+
+.button-5 {
+    border-bottom: 5px solid rgba(247, 208, 214, 255);
+    width: 100%;
+}
+
+.button-6 {
+    border-bottom: 5px solid rgba(185, 230, 141, 255);
+    width: 100%;
+}
+
+.button-7 {
+    border-bottom: 5px solid rgba(86, 129, 67, 255);
+    width: 100%;
+}
+
+.button-8 {
+    border-bottom: 5px solid rgba(190, 172, 222, 255);
+    width: 100%;
+}

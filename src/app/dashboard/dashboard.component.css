@@ -1,0 +1,18 @@
+.header {
+    background-color: rgba(16, 65, 122, 255);
+    color: white;
+}
+
+:host {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+/* .example-section {
+    margin: 12px 0;
+}
+
+.example-margin {
+    margin: 0 12px;
+} */

@@ -1,0 +1,75 @@
+<!-- Sidebar -->
+<div class="background mt-1 text-white flex flex-col h-full">
+    <div class="flex flex-col p-0 h-screen">
+        <!-- a tag -->
+        <a href="#" class="background hover:bg-gray-600 text-sm py-2 px-2 border-b border-gray-600 font-light">
+            Entire Caseload
+        </a>
+        <!-- Dropdown -->
+        <div class="relative">
+            <button (click)="toggleDropdown(1)"
+                class="background hover:bg-gray-600 text-sm font-light py-2 px-2 text-left border-b border-gray-600 w-full">
+                <i class="fa-solid fa-angle-down fa-sm mx-1" style="color: #ffffff;"></i>Intake
+            </button>
+            <div *ngIf="isDropdownOpen === 1" class=" w-full bg-gray-700 rounded-lg    shadow-lg">
+                <a href="#" class="block px-4 py-2 text-sm text-white hover:bg-gray-600">Paper Application
+                    CP/NCP</a>
+                <a href="#" class="block px-4 py-2 text-sm text-white hover:bg-gray-600">Paper Intergovernmental</a>
+                <a href="#" class="block px-4 py-2 text-sm text-white hover:bg-gray-600 border-b border-white">Non
+                    IV-D</a>
+            </div>
+        </div>
+        <!-- a tag -->
+        <a href="#" class="background hover:bg-gray-600 text-sm font-light py-2 px-2 border-b border-gray-600">
+            Referral Cases
+        </a>
+        <!-- dropdown -->
+        <div class="relative">
+            <button (click)="toggleDropdown(2)"
+                class="background hover:bg-gray-600 text-sm font-light py-2 px-2 border-b border-gray-600 w-full text-left">
+                <i class="fa-solid fa-chevron-right fa-sm mx-1" style="color: #ffffff;"></i>Intergovernmental Cases
+            </button>
+            <div *ngIf="isDropdownOpen === 2" class=" w-full bg-gray-700 rounded-lg    shadow-lg">
+                <a href="#" class="block px-4 py-2 text-sm text-white hover:bg-gray-600">Paper Application
+                    CP/NCP</a>
+                <a href="#" class="block px-4 py-2 text-sm text-white hover:bg-gray-600">Paper Intergovernmental</a>
+                <a href="#" class="block px-4 py-2 text-sm text-white hover:bg-gray-600 border-b border-white">Non
+                    IV-D</a>
+            </div>
+        </div>
+        <!-- a tag -->
+        <a href="#" class="background hover:bg-gray-600 text-sm font-light py-2 px-2 border-b border-gray-600">
+            Locate Cases
+        </a>
+        <!--  -->
+        <a href="#" class="background hover:bg-gray-600 text-sm font-light py-2 px-2 border-b border-gray-600">
+            Establishment Cases
+        </a>
+        <!--  -->
+        <a href="#" class="background hover:bg-gray-600 text-sm font-light py-2 px-2 border-b border-gray-600">
+            Enforcement Cases
+        </a>
+        <!--  -->
+        <a href="#" class="background hover:bg-gray-600 text-sm font-light py-2 px-2 border-b border-gray-600">
+            Financial Management Cases
+        </a>
+        <!--  -->
+        <a href="#" class="background hover:bg-gray-600 text-sm font-light py-2 px-2 border-b border-gray-600">
+            Case Management
+        </a>
+        <!--  -->
+        <label
+            class="background hover:bg-gray-600 text-sm font-light py-2 px-2 border-b border-gray-600 cursor-pointer">
+            <i class="fa-solid fa-file fa-sm mx-1" style="color: #ffffff;"></i>File Upload
+            <input type="file" class="hidden" />
+        </label>
+        <!--  -->
+        <a href="#" class="background hover:bg-gray-600 text-sm font-light py-2 px-2 border-b border-gray-600">
+            Mail Processing
+        </a>
+        <!--  -->
+        <a href="#" class="background hover:bg-gray-600 text-sm font-light py-2 px-2 border-b border-gray-600">
+            Notices
+        </a>
+    </div>
+</div>

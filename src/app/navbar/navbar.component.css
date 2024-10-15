@@ -1,0 +1,29 @@
+.form-control {
+    font-size: 12px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+
+}
+
+.btn {
+    border-radius: 0;
+    font-size: 12px;
+
+}
+
+.go {
+    background-color: rgba(16, 65, 122, 255);
+    color: white;
+}
+
+.clear {
+    background-color: red;
+    color: white;
+}
+
+.container-fluid {
+    border-bottom: 3px solid gainsboro;
+}
